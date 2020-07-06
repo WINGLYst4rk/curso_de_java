@@ -29,7 +29,7 @@ public class Inferencia {
 		 *
 		 * nao e possivel decalrar a vairavel e inicializar em outra linha
 		 * o java so faz a inferencia apartir da declaracao e inicializacao da variavel na mesma linha
-		 * e possivel usar ela so declarando e o java a=vai descobrir quando for atribuido um valor a ela
+		 * e possivel usar ela so declarando e o java vai descobrir quando for atribuido um valor a ela
 		 
 		var e;
 		e = 123.76;
