@@ -11,9 +11,14 @@ public class RespostaDesafioAritmeticos {
 		double denB = 2;
 		
 		double superiorA = numA / denA;
-		double supiriorB = Math.pow(numB / denB, 2);
+		double superiorB = Math.pow(numB / denB, 2);
 		
-		double 
+		double superior = Math.pow(superiorA - superiorB, 3);
+		double inferior = Math.pow(10, 3);
+		
+		double resultado = superior / inferior;
+		
+		System.out.println("O resultado é: " + resultado);
 	}
 
 }
