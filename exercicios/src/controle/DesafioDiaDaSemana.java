@@ -11,6 +11,7 @@ public class DesafioDiaDaSemana {
 		System.out.println("Digite o dia da semana: ");
 		String diaSemana = teclado.nextLine();
 		
+		// Usando o "contains()"para checar a String
 		if(diaSemana.contains("domingo") || diaSemana.contains("Domingo")) {
 			System.out.println("o dia digitado é igual: " + 1);
 		} else if(diaSemana.contains("segunda") || diaSemana.contains("Segunda")) {
