@@ -11,7 +11,7 @@ public class DesafioDiaDaSemana {
 		System.out.println("Digite o dia da semana: ");
 		String diaSemana = teclado.nextLine();
 		
-		// Usando o "contains()"para checar a String
+		// Usando a função "contains()"para checar a String
 		if(diaSemana.contains("domingo") || diaSemana.contains("Domingo")) {
 			System.out.println("o dia digitado é igual: " + 1);
 		} else if(diaSemana.contains("segunda") || diaSemana.contains("Segunda")) {
@@ -29,6 +29,25 @@ public class DesafioDiaDaSemana {
 		} else {
 			System.out.println("Dia invalido!!");
 		}
+		
+		// Podendo usar a função "equalsIgnoraCase()"
+//		if("domigo".equalsIgnoreCase(diaSemana)) {
+//			System.out.println(1);
+//		} else if("segunda".equalsIgnoreCase(diaSemana)) {
+//			System.out.println(2);
+//		} else if("terça".equalsIgnoreCase(diaSemana) || "terca".equalsIgnoreCase(diaSemana)) {
+//			System.out.println(3);
+//		} else if("quarta".equalsIgnoreCase(diaSemana)) {
+//			System.out.println(4);
+//		} else if("quinta".equalsIgnoreCase(diaSemana)) {
+//			System.out.println(5);
+//		} else if("sexta".equalsIgnoreCase(diaSemana)) {
+//			System.out.println(6);
+//		} else if("sábado".equalsIgnoreCase(diaSemana) || "sabado".equalsIgnoreCase(diaSemana)) {
+//			System.out.println(7);
+//		} else {
+//			System.out.println("Dia invalido!");
+//		}
 		
 		System.out.println("Fim!!");
 		
