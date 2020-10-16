@@ -24,6 +24,19 @@ public class SwitchSemBreack {
 		default:
 			System.out.println("Não sei nada");
 		}
+		
+		int idade = 3;
+		switch (idade) {
+		case 3:
+			System.out.println("Sabe programar");
+		case 2:
+			System.out.println("Sabe falar");
+		case 1:
+			System.out.println("sabe andar");
+		case 0:
+			System.out.println("sabe respirar");
+
+		}
 	}
 
 }
