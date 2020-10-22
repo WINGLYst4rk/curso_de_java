@@ -24,6 +24,8 @@ public class DesfioWhile {
 				notas = entrada.nextDouble();				
 			}
 			System.out.println("Quer calcular a media agora?");
+			
+			System.out.println("" + qtNotas + media);// só para sumir com o erro
 			texto = entrada.next();
 			
 		}
