@@ -24,7 +24,7 @@ public class RespostaDesafioWhile {
 		
 		//calcular media
 		double media = total / quantidadeDeNotas;
-		System.out.printf("A media e: %.1f" + media); //modifiquei a resposta final para mostrar menos casas decimais
+		System.out.printf("A media e: %.1f", media); //modifiquei a resposta final para mostrar menos casas decimais
 		
 		entrada.close();
 	}
