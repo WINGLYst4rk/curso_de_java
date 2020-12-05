@@ -4,12 +4,9 @@ public class DataTeste {
 
 	public static void main(String[] args) {
 
-		Data d1 = new Data();
+		Data d1 = new Data(12, 02, 2023);
 		Data d2 = new Data();
-
-		d1.dia = 12;
-		d1.mes = 02;
-		d1.ano = 2023;
+		Data d3 = new Data();
 
 		d2.dia = 25;
 		d2.mes = 04;
@@ -17,7 +14,9 @@ public class DataTeste {
 
 		System.out.printf("A data digitada e: %s\n", d1.DataFormatada());
 
-		System.out.printf("A data digitada e: %s", d2.DataFormatada());
+		System.out.printf("A data digitada e: %s\n", d2.DataFormatada());
+		
+		System.out.printf("A data digitada e: %s", d3.DataFormatada());
 
 	}
 
