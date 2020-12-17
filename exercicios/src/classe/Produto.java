@@ -4,12 +4,12 @@ public class Produto {
 	
 	String nome;
 	double preco;
-	double desconto;
+	static double desconto = 0.25;
 	
-	Produto(String nomeInicial, double precoInicial, double descontoInicial){//construtor explicito
+	Produto(String nomeInicial, double precoInicial){//construtor explicito
 		nome = nomeInicial;
 		preco = precoInicial;
-		desconto = descontoInicial;
+	
 	}
 	
 	Produto(){// construtor explicito para cololar o inplicito novamente
