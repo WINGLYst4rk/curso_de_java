@@ -9,20 +9,26 @@ public class Matriz {
 
 		System.out.print("Quantos alunos tem na turma? ");
 		int qtdAlunos = entrada.nextInt();
-		
+
 		System.out.print("Quantas notas por aluno? ");
 		int qtdNotas = entrada.nextInt();
+
+		double[][] alunosArray = new double[qtdAlunos][qtdNotas];
 		
-		double[][] alunoArray = new double [qtdAlunos][qtdNotas];
-		
-		for (int i = 0; i < alunoArray.length; i++) {
-			System.out.println("Digite a nota do %dº aluno:" + (i + 1));
-			for (int n = 0; n < alunoArray.length; n++) {
-				System.out.printf("Digite a %dº nota:", n + 1);
-				alunoArray[i][n] = entrada.nextDouble();
+		double total = 0;
+
+		for (int i = 0; i < alunosArray.length; i++) {
+			for (int j = 0; j < alunosArray.length; j++) {
+
+				System.out.printf("Digite a %dº nota do %dº aluno: ", j + 1, i + 1);
+				alunosArray[i][j] = entrada.nextDouble();
+				total += alunosArray [i] [j] ;
 			}
 		}
 		
+		double media = total / (qtdAlunos * qtdNotas);
+		
+		System.out.printf("A media da turma e: %.2f ", media);
 
 		entrada.close();
 	}
