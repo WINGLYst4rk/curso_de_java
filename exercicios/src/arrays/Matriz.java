@@ -28,7 +28,7 @@ public class Matriz {
 		
 		double media = total / (qtdAlunos * qtdNotas);
 		
-		System.out.printf("A media da turma e: %.2f ", media);
+		System.out.printf("A media da turma e: %.2f  ", media);
 
 		entrada.close();
 	}
