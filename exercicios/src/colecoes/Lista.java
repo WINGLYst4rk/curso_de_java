@@ -1,12 +1,14 @@
 package colecoes;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Lista {
 
 	public static void main(String[] args) {
 
-		ArrayList<Usuario> lista = new ArrayList<>();
+		//ArrayList<Usuario> lista = new ArrayList<>();
+		List<Usuario> lista = new ArrayList<>();
 
 		Usuario u1 = new Usuario("Ana paula");
 		lista.add(u1);
@@ -14,6 +16,7 @@ public class Lista {
 		lista.add(new Usuario("Marcos"));
 		lista.add(new Usuario("Jonas"));
 		lista.add(new Usuario("Lia"));
+		lista.add(new Usuario("Lia"));// uma ainda vai sobrar pois esta duplicada
 		lista.add(new Usuario("Day"));
 		
 		System.out.println(lista.get(3));// acessando um nome pelo indice
