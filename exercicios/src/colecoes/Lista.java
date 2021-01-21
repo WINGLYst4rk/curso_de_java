@@ -18,6 +18,11 @@ public class Lista {
 		
 		System.out.println(lista.get(3));// acessando um nome pelo indice
 
+		// Formas de remover algum item ou objeto da lista
+		lista.remove(1);// item
+		lista.remove(new Usuario("Lia"));// objeto
+		
+		
 		for (Usuario u : lista) {
 			System.out.println(u.nome);
 		}
