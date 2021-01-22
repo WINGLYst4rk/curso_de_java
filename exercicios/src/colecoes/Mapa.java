@@ -12,10 +12,15 @@ public class Mapa {
 		// tanto adiciona um item/objeto quato caso ja exista um com a mesma chave 
 		//ele atualiza a informação da mesma
 		usuarios.put(1, "Clarice");
-		usuarios.put(1, "Clara");
-		usuarios.put(1, "Carla");
+		usuarios.put(2, "Clara");
+		usuarios.put(3, "Carla");
+		usuarios.put(4, "Roberto");
 		
-		System.out.println(usuarios.size());// retorna 1 pois os estamos mudando a informação da chave
+		System.out.println(usuarios.size());
+		System.out.println(usuarios.isEmpty());// retorna se o Map esta vazio
+		
+		System.out.println(usuarios.keySet());// retorna todas as chaves sem ordenação
+		System.out.println(usuarios.values());// retorna os valores de cada chave
 	}
 	
 }
