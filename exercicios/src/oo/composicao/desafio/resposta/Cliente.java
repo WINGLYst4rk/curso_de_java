@@ -9,12 +9,12 @@ public class Cliente {
 	//Lista para armazenar as compras do objeto cliente
 	List<Compra> compras = new ArrayList<>();
 	
-	//Construtor de clientes
+	//Construtor de clientes.
 	Cliente(String nome){
 		this.nome = nome;
 	}
 	
-	//metodo para adicionar compras
+	//metodo para adicionar compras.
 	void adicionarCompras(Compra compra) {
 		this.compras.add(compra);
 	}
